@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:id="@+id/content_attitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_title_attitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/tv_date_attitude"
+                    android:layout_toStartOf="@+id/tv_date_attitude"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/document"
+                    android:textColor="@color/background"
+                    android:textSize="18sp"/>
+
+            <TextView
+                    android:id="@+id/tv_date_attitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toLeftOf="@+id/iv_delete_attitude"
+                    android:layout_toStartOf="@+id/iv_delete_attitude"
+                    android:text="@string/trigger"
+                    android:textColor="@color/text"
+                    android:textSize="11sp"/>
+
+            <ImageView
+                    android:id="@+id/iv_delete_attitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_delete" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:baselineAligned="false">
+
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/tv_dimension"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/weight"
+                        android:textColor="@color/text"/>
+
+                <TextView
+                        android:id="@+id/tv_dimension_detail_attitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/trigger"
+                        android:textColor="@color/background"/>
+
+                <!--<TextView-->
+                        <!--android:id="@+id/tv_status"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="15dp"-->
+                        <!--android:text="@string/action_settings"-->
+                        <!--android:textColor="@color/text"/>-->
+
+                <!--<TextView-->
+                        <!--android:id="@+id/tv_status_detail_attitude"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:text="@string/trigger"-->
+                        <!--android:textColor="@color/background"/>-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/tv_description_attitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tugas"
+                        android:textColor="@color/background"/>
+
+                <TextView
+                        android:id="@+id/tv_description_detail_attitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/trigger"
+                        android:textColor="@color/background"/>
+
+                <!--<TextView-->
+                        <!--android:id="@+id/tv_result_attitude"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="15dp"-->
+                        <!--android:text="@string/error_field_required"-->
+                        <!--android:textColor="@color/text"/>-->
+
+                <!--<TextView-->
+                        <!--android:id="@+id/tv_result_detail_attitude"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginTop="5dp"-->
+                        <!--android:text="@string/trigger"-->
+                        <!--android:textColor="@color/background"/>-->
+
+                <TextView
+                        android:id="@+id/tv_decline_attitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_dashboard"
+                        android:textColor="@color/text"
+                        android:visibility="gone"/>
+
+                <TextView
+                        android:id="@+id/tv_decline_detail_attitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/trigger"
+                        android:textColor="@color/background"
+                        android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+                android:id="@+id/view_attitude"
+                android:layout_width="match_parent"
+                android:layout_height="2.5dp"
+                android:background="@color/text" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:focusableInTouchMode="true">
+
+    <include layout="@layout/custom_bar" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app_bar"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            tools:ignore="UnknownIdInLayout">
+
+        <TextView
+                android:id="@+id/tv_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tugas"
+                android:textColor="@color/background"
+                android:textSize="12sp"/>
+
+        <EditText
+                android:id="@+id/et_project"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="2.5dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/task"
+                android:inputType="text"
+                android:textColor="@color/background"
+                android:textColorHint="@color/text"/>
+
+        <TextView
+                android:id="@+id/tv_goals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/berat"
+                android:textColor="@color/background"
+                android:textSize="12sp"/>
+
+        <EditText
+                android:id="@+id/et_goals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="2.5dp"
+                android:background="@android:color/transparent"
+                android:hint="@string/weight"
+                android:inputType="text"
+                android:textColor="@color/background"
+                android:textColorHint="@color/text"/>
+
+        <!--<TextView-->
+                <!--android:id="@+id/tv_status"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:text="@string/subtitle_status"-->
+                <!--android:textColor="@color/colorBlue"-->
+                <!--android:textSize="12sp"-->
+                <!--app:fontFamily="@font/semi_bold" />-->
+
+        <!--<Spinner-->
+                <!--android:id="@+id/spinner_status"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginTop="2.5dp" />-->
+
+        <RelativeLayout
+                android:id="@+id/container_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="gone">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/container_artifact"
+                    android:layout_toStartOf="@+id/container_artifact"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/tv_result"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/upload"
+                        android:textColor="@color/background"
+                        android:textSize="12sp"/>
+
+                <EditText
+                        android:id="@+id/et_result"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="2.5dp"
+                        android:background="@android:color/transparent"
+                        android:ellipsize="end"
+                        android:hint="@string/image"
+                        android:inputType="text"
+                        android:textColor="@color/background"
+                        android:textColorHint="@color/text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/container_artifact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp">
+
+                <ImageView
+                        android:id="@+id/iv_artifact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/circle_small"
+                        android:src="@mipmap/ic_plus" />
+
+                <TextView
+                        android:id="@+id/tv_artifact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:text="@string/upload"
+                        android:textColor="@color/background"
+                        android:textSize="12sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/kirim"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+</RelativeLayout>

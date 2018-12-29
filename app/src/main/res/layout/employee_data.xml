@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+    <!--<data>-->
+
+        <!--<import type="android.view.View" />-->
+
+        <!--<variable-->
+                <!--name="emp"-->
+                <!--type="id.ac.ui.cs.mobileprogramming.bryanza.employmee.model.ModelEmployee" />-->
+    <!--</data>-->
+
+        <TextView
+                android:id="@+id/promotion_item_title"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                tools:text="30% on beer" />
+
+        <TextView
+                android:id="@+id/promotion_item_special_label"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="@string/app_name"/>
+
+        <TextView
+                android:id="@+id/promotion_item_subtitle"
+                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                tools:text="Piwnica Pod Baranami" />
+
+        <!--<TextView-->
+                <!--android:id="@+id/promotion_item_description"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="3dp"-->
+                <!--android:text="@{item.description}"-->
+                <!--tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " />-->
+</LinearLayout>

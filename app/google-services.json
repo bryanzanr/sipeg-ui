@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "741629726575",
+    "firebase_url": "https://sprint-3-ppl.firebaseio.com",
+    "project_id": "sprint-3-ppl",
+    "storage_bucket": "sprint-3-ppl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741629726575:android:cdb4c2d70510af0d",
+        "android_client_info": {
+          "package_name": "id.ac.ui.cs.mobileprogramming.bryanza.employmee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741629726575-7hibco5u966na6do9qdafo0ukpt1o9l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByCt_aUfvjw4CcyBZMID046FpgyT3FN70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

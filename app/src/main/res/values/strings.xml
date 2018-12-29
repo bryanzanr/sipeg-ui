@@ -1,0 +1,71 @@
+<resources>
+
+    <string name="trigger">test</string>
+
+    <string name="app_name">Employme</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Username</string>
+    <string name="password">Password</string>
+    <string name="copyright">COPYRIGHT @ 2018 MOBILE PROGRAMMING UI</string>
+    <string name="login">Login</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log-in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_profile">Profile</string>
+    <string name="example_manager_id">123456</string>
+    <string name="example_manager_current_role">Superior</string>
+    <string name="example_manager_join_on">Join on 10/11/2012</string>
+    <string name="download">Download CV</string>
+    <string name="statistic">Statistics</string>
+    <string name="task">Task Done</string>
+    <string name="weight">Total Weight</string>
+    
+    <string name="logout">Logout</string>
+    <string name="faq">FAQ</string>
+    <string name="contact">Contact Us</string>
+    <string name="submit">History</string>
+    <string name="dokumen">Document</string>
+    <string name="gambar">Image</string>
+    <string name="versi">EmployMEE v 1.0.1</string>
+
+    <string name="kirim">Submit Document</string>
+    <string name="upload">Upload Image</string>
+
+    <string name="berat">Weight</string>
+    <string name="tugas">Task</string>
+    <string name="document">Document Submitted</string>
+    <string name="image">Image Saved</string>
+
+    <string name="wifi">Connecting to HotSpot - UI or HotSpot - UI (New)...</string>
+    <string name="down">CV Download Completed</string>
+    <string name="network1">HotSpot - UI</string>
+    <string name="network2">HotSpot - UI (NEW)</string>
+
+    <string name="failed">Failed to connect</string>
+    <string name="finish">Please Try Again</string>
+    <string name="nama">John Doe</string>
+    <string name="nip">654321</string>
+    <string name="gender">Male</string>
+    <string name="add">Add this account</string>
+    <string name="pass">12345678</string>
+
+</resources>

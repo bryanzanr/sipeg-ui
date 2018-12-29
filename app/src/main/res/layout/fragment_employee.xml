@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.EmployeeFragment"
+    tools:showIn="@layout/activity_employee">
+
+    <LinearLayout
+            android:id="@+id/container_manager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+        <include layout="@layout/profile_employee"/>
+
+        <include
+                layout="@layout/data_employee"
+                android:id="@+id/dat"
+                android:visibility="visible"/>
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:id="@+id/emp" />
+        <TextView
+                android:id="@+id/sample_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello World!"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:visibility="visible"/>
+        <include
+                layout="@layout/submit_upload"
+                android:id="@+id/sub"
+                android:visibility="gone"/>
+        <include layout="@layout/activity_notification"
+                 android:id="@+id/not"
+                 android:visibility="gone"/>
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-2667938700445321/5104458610">
+    </com.google.android.gms.ads.AdView>
+
+</android.support.constraint.ConstraintLayout>

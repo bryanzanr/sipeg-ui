@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="trigger">Yumm! Pie à la Android mode!</string>
+
+    <string name="app_name">Sistem Informasi Kepegawaian</string>
+    <string name="action_settings">Setelan</string>
+    <string name="email">Nama Pengguna</string>
+    <string name="password">Kata Sandi</string>
+    <string name="copyright">Hak Cipta @ 2018 MOBILE PROGRAMMING UI</string>
+    <string name="login">Masuk</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login">Masuk</string>
+    <string name="prompt_email">Surel</string>
+    <string name="prompt_password">Kata Sandi (optional)</string>
+    <string name="action_sign_in">Masuk atau Daftar</string>
+    <string name="action_sign_in_short">Masuk</string>
+    <string name="error_invalid_email">Surel yang Anda masukkan salah</string>
+    <string name="error_invalid_password">Kata Sandi yang Anda masukkan terlalu pendek</string>
+    <string name="error_incorrect_password">Kata Sandi salah</string>
+    <string name="error_field_required">Kolom ini harus diisi</string>
+    <string name="permission_rationale">"Izin Kontak dibutuhkan untuk otomatis mengisi surel."</string>
+
+    <string name="navigation_drawer_open">Buka Navigasi</string>
+    <string name="navigation_drawer_close">Tutup Navigasi</string>
+    <string name="nav_header_title">Robot Hijau</string>
+    <string name="nav_header_subtitle">Robot Hijau@om.google</string>
+    <string name="nav_header_desc">Judul Navigasi</string>
+
+    <string name="title_home">Rumah</string>
+    <string name="title_dashboard">Panduan</string>
+    <string name="title_notifications">Notifikasi</string>
+
+    <string name="title_profile">Profil</string>
+    <string name="example_manager_id">654321</string>
+    <string name="example_manager_current_role">Bos</string>
+    <string name="example_manager_join_on">Bergabung 10/11/2012</string>
+    <string name="download">Unduh CV</string>
+    <string name="statistic">Statistik</string>
+    <string name="task">Tugas Selesai</string>
+    <string name="weight">Berat Jumlah</string>
+
+    <string name="logout">Keluar</string>
+    <string name="faq">Bantuan</string>
+    <string name="contact">Hubungi Kami</string>
+    <string name="submit">Sejarah</string>
+    <string name="dokumen">Dokumen</string>
+    <string name="gambar">Gambar</string>
+    <string name="versi">Sistem Informasi Kepegawaian v 1.0.1</string>
+
+    <string name="kirim">Kirim Dokumen</string>
+    <string name="upload">Unggah Foto</string>
+
+    <string name="berat">Berat</string>
+    <string name="tugas">Tugas</string>
+    <string name="document">Dokumen Terkirim</string>
+    <string name="image">Gambar Disimpan</string>
+
+    <string name="wifi">Melakukan koneksi dengan HotSpot - UI atau HotSpot - UI (New)...</string>
+    <string name="down">Unduh CV Selesai</string>
+    <string name="network1">HotSpot - UI</string>
+    <string name="network2">HotSpot - UI (NEW)</string>
+
+    <string name="failed">SSID tidak ditemukan</string>
+    <string name="finish">Silahkan coba lagi</string>
+    <string name="nama">Nama Orang</string>
+    <string name="nip">123456</string>
+    <string name="gender">Perempuan</string>
+    <string name="add">Tambahkan akun ini</string>
+    <string name="pass">""</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item android:title="@string/submit">
+        <menu>
+            <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/dokumen" />
+            <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_photo_camera_black_24dp"
+                    android:title="@string/gambar" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_slideshow"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="@string/faq" />
+        <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/contact" />
+        <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_arrow_back_white_24px"
+                android:title="@string/logout" />
+    </group>
+
+</menu>
